@@ -31,6 +31,12 @@
 		D3237A0325A1A7930055E8E6 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3237A0125A1A7930055E8E6 /* ScrumProgressViewStyle.swift */; };
 		D3237A0725A1A7D60055E8E6 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3237A0625A1A7D60055E8E6 /* ScrumTimer.swift */; };
 		D3237A0825A1A7D60055E8E6 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3237A0625A1A7D60055E8E6 /* ScrumTimer.swift */; };
+		D3237A0C25A1B5C60055E8E6 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3237A0B25A1B5C60055E8E6 /* MeetingFooterView.swift */; };
+		D3237A0D25A1B5C60055E8E6 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3237A0B25A1B5C60055E8E6 /* MeetingFooterView.swift */; };
+		D3237A1125A1BACF0055E8E6 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3237A1025A1BACF0055E8E6 /* AVPlayer+Ding.swift */; };
+		D3237A1225A1BACF0055E8E6 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3237A1025A1BACF0055E8E6 /* AVPlayer+Ding.swift */; };
+		D3237A2325A1C1340055E8E6 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D3237A2225A1C1340055E8E6 /* ding.wav */; };
+		D3237A2425A1C1340055E8E6 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D3237A2225A1C1340055E8E6 /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +57,9 @@
 		D32379FB25A1A5360055E8E6 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		D3237A0125A1A7930055E8E6 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		D3237A0625A1A7D60055E8E6 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		D3237A0B25A1B5C60055E8E6 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		D3237A1025A1BACF0055E8E6 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		D3237A2225A1C1340055E8E6 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +96,14 @@
 				D32379F825A1A0FC0055E8E6 /* Model */,
 				D32379B325A0CC890055E8E6 /* ScrumdingerApp.swift */,
 				D32379B425A0CC890055E8E6 /* MeetingView.swift */,
+				D3237A0B25A1B5C60055E8E6 /* MeetingFooterView.swift */,
 				D32379FB25A1A5360055E8E6 /* MeetingHeaderView.swift */,
 				D32379F225A198060055E8E6 /* EditView.swift */,
 				D32379DD25A0DD980055E8E6 /* CardView.swift */,
 				D32379E725A10D920055E8E6 /* ScrumsView.swift */,
 				D32379EC25A111850055E8E6 /* DetailView.swift */,
 				D3237A0125A1A7930055E8E6 /* ScrumProgressViewStyle.swift */,
+				D3237A2225A1C1340055E8E6 /* ding.wav */,
 				D32379B525A0CC8A0055E8E6 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -127,6 +138,7 @@
 		D32379F825A1A0FC0055E8E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D3237A1025A1BACF0055E8E6 /* AVPlayer+Ding.swift */,
 				D32379E225A0F3860055E8E6 /* Color+Codable.swift */,
 				D32379D825A0DB4B0055E8E6 /* DailyScrum.swift */,
 				D3237A0625A1A7D60055E8E6 /* ScrumTimer.swift */,
@@ -212,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3237A2325A1C1340055E8E6 /* ding.wav in Resources */,
 				D32379CA25A0CC8A0055E8E6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3237A2425A1C1340055E8E6 /* ding.wav in Resources */,
 				D32379CB25A0CC8A0055E8E6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,8 +248,10 @@
 				D32379C825A0CC8A0055E8E6 /* MeetingView.swift in Sources */,
 				D32379E825A10D920055E8E6 /* ScrumsView.swift in Sources */,
 				D32379F325A198060055E8E6 /* EditView.swift in Sources */,
+				D3237A1125A1BACF0055E8E6 /* AVPlayer+Ding.swift in Sources */,
 				D32379FC25A1A5360055E8E6 /* MeetingHeaderView.swift in Sources */,
 				D32379D925A0DB4B0055E8E6 /* DailyScrum.swift in Sources */,
+				D3237A0C25A1B5C60055E8E6 /* MeetingFooterView.swift in Sources */,
 				D32379ED25A111850055E8E6 /* DetailView.swift in Sources */,
 				D3237A0725A1A7D60055E8E6 /* ScrumTimer.swift in Sources */,
 				D32379DE25A0DD980055E8E6 /* CardView.swift in Sources */,
@@ -252,8 +268,10 @@
 				D32379C925A0CC8A0055E8E6 /* MeetingView.swift in Sources */,
 				D32379E925A10D920055E8E6 /* ScrumsView.swift in Sources */,
 				D32379F425A198060055E8E6 /* EditView.swift in Sources */,
+				D3237A1225A1BACF0055E8E6 /* AVPlayer+Ding.swift in Sources */,
 				D32379FD25A1A5360055E8E6 /* MeetingHeaderView.swift in Sources */,
 				D32379DA25A0DB4B0055E8E6 /* DailyScrum.swift in Sources */,
+				D3237A0D25A1B5C60055E8E6 /* MeetingFooterView.swift in Sources */,
 				D32379EE25A111850055E8E6 /* DetailView.swift in Sources */,
 				D3237A0825A1A7D60055E8E6 /* ScrumTimer.swift in Sources */,
 				D32379DF25A0DD980055E8E6 /* CardView.swift in Sources */,
@@ -383,6 +401,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDP9QHRJQB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -404,6 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDP9QHRJQB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
