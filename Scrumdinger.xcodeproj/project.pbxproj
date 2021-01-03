@@ -75,10 +75,9 @@
 		D32379B225A0CC890055E8E6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D32379E225A0F3860055E8E6 /* Color+Codable.swift */,
+				D32379F825A1A0FC0055E8E6 /* Model */,
 				D32379B325A0CC890055E8E6 /* ScrumdingerApp.swift */,
 				D32379B425A0CC890055E8E6 /* MeetingView.swift */,
-				D32379D825A0DB4B0055E8E6 /* DailyScrum.swift */,
 				D32379F225A198060055E8E6 /* EditView.swift */,
 				D32379DD25A0DD980055E8E6 /* CardView.swift */,
 				D32379E725A10D920055E8E6 /* ScrumsView.swift */,
@@ -112,6 +111,15 @@
 				D32379C525A0CC8A0055E8E6 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		D32379F825A1A0FC0055E8E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D32379E225A0F3860055E8E6 /* Color+Codable.swift */,
+				D32379D825A0DB4B0055E8E6 /* DailyScrum.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
