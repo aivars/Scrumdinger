@@ -1,6 +1,9 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-*/
+//
+//  ScrumTimer.swift
+//  Scrumdinger
+//
+//  Created by Aivars Meijers on 02/01/2021.
+//
 
 import Foundation
 
