@@ -39,6 +39,8 @@
 		D3237A2425A1C1340055E8E6 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D3237A2225A1C1340055E8E6 /* ding.wav */; };
 		D3237A2825A1CEEB0055E8E6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3237A2725A1CEEB0055E8E6 /* History.swift */; };
 		D3237A2925A1CEEB0055E8E6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3237A2725A1CEEB0055E8E6 /* History.swift */; };
+		D3237A2F25A1D6140055E8E6 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3237A2E25A1D6140055E8E6 /* ScrumData.swift */; };
+		D3237A3025A1D6140055E8E6 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3237A2E25A1D6140055E8E6 /* ScrumData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,7 @@
 		D3237A1025A1BACF0055E8E6 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		D3237A2225A1C1340055E8E6 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		D3237A2725A1CEEB0055E8E6 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		D3237A2E25A1D6140055E8E6 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,7 @@
 				D32379D825A0DB4B0055E8E6 /* DailyScrum.swift */,
 				D3237A0625A1A7D60055E8E6 /* ScrumTimer.swift */,
 				D3237A2725A1CEEB0055E8E6 /* History.swift */,
+				D3237A2E25A1D6140055E8E6 /* ScrumData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -254,6 +258,7 @@
 				D3237A2825A1CEEB0055E8E6 /* History.swift in Sources */,
 				D32379F325A198060055E8E6 /* EditView.swift in Sources */,
 				D3237A1125A1BACF0055E8E6 /* AVPlayer+Ding.swift in Sources */,
+				D3237A2F25A1D6140055E8E6 /* ScrumData.swift in Sources */,
 				D32379FC25A1A5360055E8E6 /* MeetingHeaderView.swift in Sources */,
 				D32379D925A0DB4B0055E8E6 /* DailyScrum.swift in Sources */,
 				D3237A0C25A1B5C60055E8E6 /* MeetingFooterView.swift in Sources */,
@@ -275,6 +280,7 @@
 				D3237A2925A1CEEB0055E8E6 /* History.swift in Sources */,
 				D32379F425A198060055E8E6 /* EditView.swift in Sources */,
 				D3237A1225A1BACF0055E8E6 /* AVPlayer+Ding.swift in Sources */,
+				D3237A3025A1D6140055E8E6 /* ScrumData.swift in Sources */,
 				D32379FD25A1A5360055E8E6 /* MeetingHeaderView.swift in Sources */,
 				D32379DA25A0DB4B0055E8E6 /* DailyScrum.swift in Sources */,
 				D3237A0D25A1B5C60055E8E6 /* MeetingFooterView.swift in Sources */,
