@@ -23,6 +23,8 @@
 		D32379E925A10D920055E8E6 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32379E725A10D920055E8E6 /* ScrumsView.swift */; };
 		D32379ED25A111850055E8E6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32379EC25A111850055E8E6 /* DetailView.swift */; };
 		D32379EE25A111850055E8E6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32379EC25A111850055E8E6 /* DetailView.swift */; };
+		D32379F325A198060055E8E6 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32379F225A198060055E8E6 /* EditView.swift */; };
+		D32379F425A198060055E8E6 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32379F225A198060055E8E6 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,7 @@
 		D32379E225A0F3860055E8E6 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		D32379E725A10D920055E8E6 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		D32379EC25A111850055E8E6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D32379F225A198060055E8E6 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 				D32379B325A0CC890055E8E6 /* ScrumdingerApp.swift */,
 				D32379B425A0CC890055E8E6 /* MeetingView.swift */,
 				D32379D825A0DB4B0055E8E6 /* DailyScrum.swift */,
+				D32379F225A198060055E8E6 /* EditView.swift */,
 				D32379DD25A0DD980055E8E6 /* CardView.swift */,
 				D32379E725A10D920055E8E6 /* ScrumsView.swift */,
 				D32379EC25A111850055E8E6 /* DetailView.swift */,
@@ -209,6 +213,7 @@
 			files = (
 				D32379C825A0CC8A0055E8E6 /* MeetingView.swift in Sources */,
 				D32379E825A10D920055E8E6 /* ScrumsView.swift in Sources */,
+				D32379F325A198060055E8E6 /* EditView.swift in Sources */,
 				D32379D925A0DB4B0055E8E6 /* DailyScrum.swift in Sources */,
 				D32379ED25A111850055E8E6 /* DetailView.swift in Sources */,
 				D32379DE25A0DD980055E8E6 /* CardView.swift in Sources */,
@@ -223,6 +228,7 @@
 			files = (
 				D32379C925A0CC8A0055E8E6 /* MeetingView.swift in Sources */,
 				D32379E925A10D920055E8E6 /* ScrumsView.swift in Sources */,
+				D32379F425A198060055E8E6 /* EditView.swift in Sources */,
 				D32379DA25A0DB4B0055E8E6 /* DailyScrum.swift in Sources */,
 				D32379EE25A111850055E8E6 /* DetailView.swift in Sources */,
 				D32379DF25A0DD980055E8E6 /* CardView.swift in Sources */,
